@@ -1,0 +1,150 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+
+}
+
+nav{
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 62px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+nav ul{
+	font-size: 13px;
+	color:#eee;
+	float: right;
+	margin-right: 100px;
+	margin-top: 20px;
+	list-style-type: none;
+
+}
+
+nav ul li{
+	float: left;
+	margin-right: 30px;
+}
+
+a{
+	color: #eee;
+	text-decoration:none;
+}
+
+nav ul li a:hover{
+	color: #1ed760;
+}
+
+header{
+	padding-top: 230px;
+	padding-left: 332px;
+	background-image: url("../img/bkg1.jpg");
+	background-size: 100%;
+	padding-bottom: 232px;
+	background-repeat: no-repeat;
+
+}
+
+section{
+
+	width: 100%;
+	height: 600px;
+
+}
+
+.guia
+{
+	width: 100%;
+	opacity: 0.5;
+	z-index: -1;
+	position: absolute;
+}
+
+.logo{
+	width: 110px;
+	margin-left: 128px;
+	margin-top: 13px;
+}
+
+.menu
+{
+	float: left;
+}
+.slogan
+{
+	font-size: 60px;
+	color: white;
+	margin-bottom: 40px;
+}
+
+.btn
+{
+	border-radius: 50px;
+	width: 285px;
+	height: 45px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.btn-verde
+{
+	background-color: #1ed760;
+	border:0;
+
+
+}
+.btn-branco
+{
+	background-color: rgba(0,0,0,0);
+	border:2px solid #fff;
+	margin-left: 7px;
+	width: 266px;
+	height: 40px;
+}
+
+.btn-branco:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.btn-verde:hover{
+	background-color: #00FF7F;
+	color: #fff;
+}
+
+/*section2*/
+
+.bloco1{
+	float:left;
+	width: 50%;
+	height: 600px;
+	padding-top: 45px;
+	margin-left: 140px;
+}
+
+.bloco1h2
+{
+margin-top: 30px;
+}
+
+.bloco1p
+{
+margin-top: 20px;
+}
+.albuns{
+	float:right;
+	width: 520px;
+	padding-right: 140px;
+	padding-top: 49px;
+}
+
+#bloco1h1{
+	font-size: 40px;
+}
